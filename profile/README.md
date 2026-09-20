@@ -24,6 +24,15 @@ go install github.com/experimental-gains/goproxycheck@latest
 go install github.com/experimental-gains/modslop@latest
 ```
 
+Or via Homebrew, no Go toolchain needed
+([tap source](https://github.com/experimental-gains/homebrew-tap)):
+
+```
+brew install experimental-gains/tap/goprivaudit
+brew install experimental-gains/tap/goproxycheck
+brew install experimental-gains/tap/modslop
+```
+
 ## Also here
 
 - **[slopcheck](https://github.com/experimental-gains/slopcheck)** —
