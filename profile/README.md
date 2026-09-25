@@ -41,14 +41,17 @@ Or as a GitHub Action, straight in CI:
 - uses: experimental-gains/modslop@v0.2.10
 ```
 
-Or as a Claude Code plugin, so an agent runs these checks itself before
-installing a dependency or committing a `go.mod` change, not just in CI
+Or as a Claude Code / Copilot CLI plugin, so an agent runs these checks
+itself before installing a dependency or committing a `go.mod` change, not
+just in CI
 ([`claude-plugins`](https://github.com/experimental-gains/claude-plugins)):
 
 ```
 claude plugin marketplace add experimental-gains/claude-plugins
 claude plugin install supplychain-guard@experimental-gains-plugins
 ```
+
+(swap `claude` for `copilot` — same marketplace file works with both)
 
 ## Also here
 
