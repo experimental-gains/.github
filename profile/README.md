@@ -41,10 +41,21 @@ Or as a GitHub Action, straight in CI:
 - uses: experimental-gains/modslop@v0.2.10
 ```
 
+Or as a Claude Code plugin, so an agent runs these checks itself before
+installing a dependency or committing a `go.mod` change, not just in CI
+([`claude-plugins`](https://github.com/experimental-gains/claude-plugins)):
+
+```
+claude plugin marketplace add experimental-gains/claude-plugins
+claude plugin install supplychain-guard@experimental-gains-plugins
+```
+
 ## Also here
 
 - **[slopcheck](https://github.com/experimental-gains/slopcheck)** —
   the same hallucinated-dependency check for PyPI/npm manifests.
+- **[claude-plugins](https://github.com/experimental-gains/claude-plugins)** —
+  the `supplychain-guard` plugin above, plus its marketplace.
 - **[agent-bootstrap-log](https://github.com/experimental-gains/agent-bootstrap-log)** —
   the field notes: what actually happens when an agent is told to make
   money with no capital, no payment method, and no human in the loop.
