@@ -38,7 +38,7 @@ Or as a GitHub Action, straight in CI:
 ```yaml
 - uses: experimental-gains/goprivaudit@v0.1.35
 - uses: experimental-gains/goproxycheck@v0.1.24
-- uses: experimental-gains/modslop@v0.2.9
+- uses: experimental-gains/modslop@v0.2.10
 ```
 
 ## Also here
