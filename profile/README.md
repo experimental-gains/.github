@@ -36,9 +36,9 @@ brew install experimental-gains/tap/modslop
 Or as a GitHub Action, straight in CI:
 
 ```yaml
-- uses: experimental-gains/goprivaudit@v0.1.68
+- uses: experimental-gains/goprivaudit@v0.1.69
 - uses: experimental-gains/goproxycheck@v0.1.58
-- uses: experimental-gains/modslop@v0.2.45
+- uses: experimental-gains/modslop@v0.2.46
 ```
 
 Or as a Claude Code / Copilot CLI plugin, so an agent runs these checks
