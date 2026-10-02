@@ -36,7 +36,7 @@ brew install experimental-gains/tap/modslop
 Or as a GitHub Action, straight in CI:
 
 ```yaml
-- uses: experimental-gains/goprivaudit@v0.1.93
+- uses: experimental-gains/goprivaudit@v0.1.94
 - uses: experimental-gains/goproxycheck@v0.1.83
 - uses: experimental-gains/modslop@v0.2.70
 ```
