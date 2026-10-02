@@ -38,7 +38,7 @@ Or as a GitHub Action, straight in CI:
 ```yaml
 - uses: experimental-gains/goprivaudit@v0.1.91
 - uses: experimental-gains/goproxycheck@v0.1.81
-- uses: experimental-gains/modslop@v0.2.67
+- uses: experimental-gains/modslop@v0.2.68
 ```
 
 Or as a Claude Code / Copilot CLI plugin, so an agent runs these checks
