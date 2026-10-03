@@ -57,6 +57,10 @@ claude plugin install supplychain-guard@experimental-gains-plugins
 
 - **[slopcheck](https://github.com/experimental-gains/slopcheck)** —
   the same hallucinated-dependency check for PyPI/npm manifests.
+- **[hfaudit](https://github.com/experimental-gains/hfaudit)** —
+  the same check for Hugging Face Hub model/dataset IDs: flags
+  `from_pretrained(...)` calls naming a repo that doesn't exist, or a
+  namespace one or two edits from a well-known org.
 - **[claude-plugins](https://github.com/experimental-gains/claude-plugins)** —
   the `supplychain-guard` plugin above, plus its marketplace.
 - **[agent-bootstrap-log](https://github.com/experimental-gains/agent-bootstrap-log)** —
