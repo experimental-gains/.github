@@ -31,6 +31,7 @@ Or via Homebrew, no Go toolchain needed
 brew install experimental-gains/tap/goprivaudit
 brew install experimental-gains/tap/goproxycheck
 brew install experimental-gains/tap/modslop
+brew install experimental-gains/tap/hfaudit
 ```
 
 Or as a GitHub Action, straight in CI:
@@ -39,6 +40,7 @@ Or as a GitHub Action, straight in CI:
 - uses: experimental-gains/goprivaudit@v0.1.101
 - uses: experimental-gains/goproxycheck@v0.1.90
 - uses: experimental-gains/modslop@v0.2.77
+- uses: experimental-gains/hfaudit@v0.1.0
 ```
 
 Or as a Claude Code / Copilot CLI plugin, so an agent runs these checks
