@@ -37,7 +37,7 @@ brew install experimental-gains/tap/hfaudit
 Or as a GitHub Action, straight in CI:
 
 ```yaml
-- uses: experimental-gains/goprivaudit@v0.1.108
+- uses: experimental-gains/goprivaudit@v0.1.109
 - uses: experimental-gains/goproxycheck@v0.1.97
 - uses: experimental-gains/modslop@v0.2.84
 - uses: experimental-gains/hfaudit@v0.1.7
