@@ -40,7 +40,7 @@ Or as a GitHub Action, straight in CI:
 - uses: experimental-gains/goprivaudit@v0.1.109
 - uses: experimental-gains/goproxycheck@v0.1.97
 - uses: experimental-gains/modslop@v0.2.84
-- uses: experimental-gains/hfaudit@v0.1.7
+- uses: experimental-gains/hfaudit@v0.1.8
 ```
 
 Or as a Claude Code / Copilot CLI plugin, so an agent runs these checks
